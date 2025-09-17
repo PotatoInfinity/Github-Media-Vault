@@ -1,43 +1,43 @@
 
-# GitHub Vault 🔐
+# GitHub Vault 
 
 [Use Github Vault here](githubvault.replit.app)
 
 A secure, client-side image and document storage application that uses GitHub repositories as encrypted storage backends. Store your media files safely with zero-knowledge encryption - even GitHub can't see your content!
 
-## ✨ Features
+## Features
 
-### 🔒 **Zero-Knowledge Security**
+###  **Zero-Knowledge Security**
 - **Client-side encryption only** - All encryption/decryption happens in your browser
 - **Password-based protection** - Your vault password never leaves your device
 - **AES-GCM encryption** with PBKDF2 key derivation (150,000 iterations)
 - GitHub only stores encrypted data - no plaintext access possible
 
-### 📁 **Smart File Management**
+###  **Smart File Management**
 - **Folder organization** - Create and manage custom folders for your media
 - **Advanced search** - Search by filename across all folders
 - **Multiple sort options** - Sort by date or name (ascending/descending)
 - **Drag & drop uploads** - Easy file uploading with progress tracking
 
-### 🎬 **Rich Media Support**
+### **Rich Media Support**
 - **Images**: JPG, PNG, GIF, WebP, HEIC/HEIF (auto-converted to JPG)
 - **Videos**: MP4, MOV, AVI, MKV, WebM, and more with duration display
 - **Office Documents**: PDF, DOC/DOCX, PPT/PPTX, XLS/XLSX with preview
 - **Text Files**: TXT, MD, JSON, CSV, RTF with syntax highlighting
 
-### ⚡ **Performance Optimized**
+###  **Performance Optimized**
 - **Adaptive memory management** - Automatically adjusts based on your device
 - **Progressive loading** - Thumbnails → Medium quality → Full resolution
 - **Smart caching** - Uses IndexedDB for faster repeated access
 - **Large file chunking** - Handles files up to GitHub's limits seamlessly
 
-### 🌐 **GitHub Integration**
+### **GitHub Integration**
 - **Public repositories** - Uses GitHub's free tier (files are encrypted)
 - **Automatic repo management** - Creates new repos when size limits are reached
 - **Personal Access Token** - Secure authentication with GitHub API
 - **Version control benefits** - All changes tracked in Git history
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 1. **GitHub Account** - Sign up at [github.com](https://github.com)
@@ -58,7 +58,7 @@ A secure, client-side image and document storage application that uses GitHub re
    - Set a strong vault password (this encrypts your files)
 4. **Start uploading** - Drag & drop files or click the upload area
 
-## 📂 File Organization
+## File Organization
 
 ### Folder System
 - **Default folder**: "others" - All unorganized files go here
@@ -72,7 +72,7 @@ A secure, client-side image and document storage application that uses GitHub re
 - **Office docs**: Icon-based thumbnails and online preview integration
 - **Large files**: Automatic chunking for files over 10MB
 
-## 🔧 Technical Details
+## Technical Details
 
 ### Architecture
 - **Frontend**: Vanilla React 18 loaded via CDN
@@ -104,7 +104,7 @@ your-username_data_0/           # Main data repository
 └── vault-manifest.json        # Repository metadata
 ```
 
-## 🔐 Security Features
+## Security Features
 
 ### Encryption Details
 - **Algorithm**: AES-GCM with 256-bit keys
@@ -121,7 +121,7 @@ your-username_data_0/           # Main data repository
 - ❌ File metadata (names, dates, dimensions) are visible on GitHub
 - ❌ Repository structure and file count are visible
 
-## 🛠️ Advanced Usage
+## Advanced Usage
 
 ### Account Management
 - **Export data**: Download all files individually before account deletion
@@ -160,7 +160,7 @@ This is an open-source project! Feel free to:
 - Fork the project for your own modifications
 - Share your experience and use cases
 
-## 📄 License
+## License
 
 This project is open source and available under the MIT License.
 
@@ -196,4 +196,4 @@ This project is open source and available under the MIT License.
 
 ---
 
-**🔒 Remember**: Your vault password is the only way to decrypt your files. If you lose it, your data cannot be recovered!
+**Remember**: Your vault password is the only way to decrypt your files. If you lose it, your data cannot be recovered!
